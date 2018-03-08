@@ -164,9 +164,18 @@ Found a number divisible by 3 --> 9
 
 #PASS STATEMENTS
 
-while True:
-    print('durian')
+while True: #keep running background process. Jangan buat print hahah
     pass
+
+
+for n in range(2,10):
+    if n % 3 == 0:
+        print("Found a number divisible by 3 -->", n)
+        continue
+    print("Just another number", n) 
+
+
+
 
 
 
